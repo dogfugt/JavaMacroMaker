@@ -1,0 +1,55 @@
+10/08/2018 - 4 hours
+	started first GUI for robot
+	
+17/08 - 4 hours
+	I worked on a table that lists what action the user made, the XY coordinates, 
+	and it sets the cell colour to what RGB the click was made too.
+	
+	Changing from AWT to JFrame...
+	
+21/08 - 8 hours
+	Made a new, cleaner GUI that doesn't use flow layout.
+	Basically put SetBounds to every component.
+	Changed to JFrame.
+	
+	..
+	
+	Made so it now runs the actions through the table, as originally intended ( I had trouble wrapping my head around how to do it ).
+	
+23/08 - 5 hours
+	Created a new JFrame that records time between clicks and stores them in an array.
+	I can use the array to make the automation more (human-like). I created because some games have anti-bot detection, my array can help avoid being detected.
+	
+24/08 - 6 hours
+	Created a screen that shows the monitor scaled down (1 : 2), I have added some methods to create vision of where the bot will click and mouse movements..
+	I need to implement arrays into the method each time I click add action.
+	
+29/08 - 1:20 hours 
+	Added a method to type letters from a string.
+	
+31/08 - 2 hours
+	Fixing algorithms
+	
+18/09 - 1 hour
+	Clicking at mouse cursor location method
+	
+19/09 - 1:30 hours
+	Tweaking and fixing some things in the screen display window, and more cursor location code added.
+
+26/09 - 1:20 hours
+	Made screendisplayer show mouse movement inbetween actions. Previously, you it would only show if you added the action 'Mouse move'.
+	
+	More progress on the screen displayer, the type string method; it will now show a clear box with the string inside of it at set coordinates.
+	
+29/09 - 3 hours
+	Added RGB table cell support 	
+	
+1/10 - 2-3 hours
+	Made an algorithm that detects what a colour is from HSL values, if it is dark/light, if it is pastel or not, in a string.
+	E.g. red very dark pastel 
+	
+10/10 - 2-3 hours
+	Made code cleaner for anyone to read and added a settings window.
+	
+
+	

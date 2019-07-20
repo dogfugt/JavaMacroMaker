@@ -1,0 +1,34 @@
+save an image to a .png,
+
+robot gets rgb colour of each pixel
+
+BufferedImage image;
+
+	for(int x : int imageWidth) {
+		for(int y : int imageHeight) {
+			rgb = image.getRGB(x, y);
+			array.add(rgb); //add array at cell x and row y
+		}
+	}
+
+after setting the images total x y and setting the rgbs to an array..
+
+ScreenScan(array[0][0]) { // check for the x:0, y:0 rgb..
+
+	if(found) {
+
+		for(int x : int image.getWidth) { 
+			for(int y : int image.getHeight) { 
+				robot.checkPixelRGB(foundX + x, foundY + y)
+				if(rgb == array.rgb(x, y))
+					//continue running
+
+			}
+		print("success, every pixel was found");
+		
+		}
+				
+	
+	}
+}
+

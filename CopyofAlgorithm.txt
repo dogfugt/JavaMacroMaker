@@ -1,0 +1,29 @@
+//If first cell is less than second cell, have it setRandomInt as first cell, second cell.
+		if (humanArray.get(i - 1) <= humanArray.get(i)) {
+//			setInterval = setRandomInt((humanArray.get(i - 1) - 1), humanArray.get(i));
+			setInterval = setRandomInt(humanArray.get(i), humanArray.get(i - 1));
+
+			print(humanArray.get(i) + ",  " + humanArray.get(i - 1)  + " success 1");
+
+		}
+			
+		//If first array cell is more than second cell, have the second cell be the smaller int in the setRandomInt method
+		else if (humanArray.get(i - 1) >= humanArray.get(i)) {
+			setInterval = setRandomInt((humanArray.get(i) + 1), humanArray.get(i - 1));
+//			setInterval = setRandomInt(humanArray.get(i), humanArray.get(i - 1));
+			print(humanArray.get(i) + ",  " + humanArray.get(i - 1) + " success 1");
+
+		}
+		// If the array of two numbers equal eachother, make the second int (max) +1
+		else if (humanArray.get(i - 1) == humanArray.get(i)) {
+			humanArray.set(i - 1, (i - 1) + 100);
+			setInterval = setRandomInt(humanArray.get(i - 1), (humanArray.get(i)));
+			print(humanArray.get(i - 1) + ",  " + humanArray.get(i) + " success 1");
+
+		}
+			
+		else if(humanArray.get(i - 1) != humanArray.get(i)) {
+			print(humanArray.get(i - 1) + ",  " + humanArray.get(i) + " failed");
+//			throw new IllegalArgumentException("something wrong with getting an interval in GUI.getHumanInterval");
+		}
+		return setInterva
