@@ -1,5 +1,5 @@
-# macro
-Java Macro Automation - create scripts and run them
+# Java Macro Maker
+Java Macro Maker - easily create scripts and run them
 
 notes
 - includes a feature i've never seen done before, in the 'what i see' window. it will show you where the action is pressed and/or moving to and what the person typed at what x, y coordinates.
